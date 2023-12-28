@@ -20,7 +20,7 @@ function Hero() {
                     <h2><span>Sárospatak</span> városban</h2>
                     <div className="hero-small-text">
                         <p>Több mint 10 éves tapasztalattal és elkötelezettséggel várjuk Önöket Sárospatak egyik eldugott kis zugában, ahol bérfőzéssel foglalkozunk.</p>
-                        <p>Szívünk és lelkünk a kisüsti lepárlókkal felszeret kis főzdénkben dobog, ahol a bérfőzés lehetőségével kínáljuk ügyfeleinknek a tökéletes pálinka elkészítését. Minden egyes cseppet gondos odafigyeléssel és a legjobb alapanyagok felhasználásával főzünk meg.</p>
+                        <p>Szívünk és lelkünk a kisüsti lepárlókkal felszerelt kis főzdénkben dobog, ahol a bérfőzés lehetőségével kínáljuk ügyfeleinknek a tökéletes pálinka elkészítését. Minden egyes cseppet gondos odafigyeléssel és a legjobb alapanyagok felhasználásával főzünk meg.</p>
                         <p>A Patakpárlat nem csupán egy pálinkafőzdéje Sárospatak városának; itt a bérfőzés révén a minőség és a szenvedély találkozik. Fedezze fel nálunk a pálinka varázslatos világát, és élvezze a bérfőzés kényelmét, amely minden egyes cseppünkbe zártatik.</p>
                         <p>Köszönjük, hogy velünk tartanak ezen az izgalmas úton. Legyen részese Ön is a Patakpárlat bérfőzés élményének!</p>
                     </div>
