@@ -20,8 +20,8 @@ function Navbar() {
                             <i>Patak-Párlat</i>
                             <i className="close" onClick={() => setMenu(!menu)}><GrClose /></i>
                             </div>
-                            <li><Link to="/">Kezdőlap</Link></li>
-                            <li><Link to="/MyGallery">Galéria</Link></li>
+                            <li><Link to="/" onClick={()=> setMenu(!menu)}>Kezdőlap</Link></li>
+                            <li><Link to="/MyGallery" onClick={()=> setMenu(!menu)}>Galéria</Link></li>
                         </ul>
                     </nav>
                 </header>

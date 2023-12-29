@@ -9,7 +9,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 function MyGallery() {
   const [imageList, setImageList] = useState([]);
 
-  const imageListRef = ref(storage, "patak-parlat/");
+  const imageListRef = ref(storage, "gallery/");
   useEffect(() => {
     listAll(imageListRef).then((response) => {
       const promises = response.items.map((item) => {
@@ -33,6 +33,7 @@ function MyGallery() {
       }}>
       <h1>Galéria</h1>
       <div className='image-container'>
+        {imageList.length <= 0 && <h1>Jelenleg egyetlen képet sem tartalmaz a galéria.</h1> }
         {imageList.map((url) => {
           return <div className='image'>
             <Gallery>
