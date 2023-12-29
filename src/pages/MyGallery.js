@@ -33,7 +33,7 @@ function MyGallery() {
       }}>
       <h1>Galéria</h1>
       <div className='image-container'>
-        {imageList.length <= 0 && <h1>Jelenleg egyetlen képet sem tartalmaz a galéria.</h1> }
+       
         {imageList.map((url) => {
           return <div className='image'>
             <Gallery>
