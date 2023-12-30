@@ -17,8 +17,9 @@ function News() {
     return (
         <motion.div className='news-container'>
             {news.length > 0 ? <> <h1>Aktuális híreink</h1>
-            {news.map((newTopic) => {
+            {news.map((newTopic, index) => {
                 return <motion.div className='news-container'
+                key={index}
                 initial="hidden"
                     whileInView="visible"
                     viewport={{ once: false }}
