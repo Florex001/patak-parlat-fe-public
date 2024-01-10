@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from 'react'
 import "./Home.css";
 import imageNews from '../../assets/palinka.jpg'
-import axios from 'axios'
 import moment from 'moment'
 import {motion} from 'framer-motion'
+import axiosInstance from '../../contexts/axiosInstance';
 
 function News() {
     const [news, setNews] = useState([]);
 
     useEffect(() => {
-        axios.get("https://patak-parlat-be-production.up.railway.app/news/getAllNews").then((response) => {
+        axiosInstance.get("news/getAllNews").then((response) => {
             setNews(response.data);
         })
     }, [])

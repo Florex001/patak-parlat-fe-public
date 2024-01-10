@@ -21,7 +21,7 @@ function Navbar() {
                             <i className="close" onClick={() => setMenu(!menu)}><GrClose /></i>
                             </div>
                             <li><Link to="/" onClick={()=> setMenu(!menu)}>Kezdőlap</Link></li>
-                            <li><Link to="/MyGallery" onClick={()=> setMenu(!menu)}>Galéria</Link></li>
+                            <li><Link to="/galeria" onClick={()=> setMenu(!menu)}>Galéria</Link></li>
                         </ul>
                     </nav>
                 </header>
